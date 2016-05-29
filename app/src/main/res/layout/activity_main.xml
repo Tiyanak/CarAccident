@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="hr.fer.ruazosa.if47987.caraccident.caraccident.MainActivity"
+    android:background="@drawable/d">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Europsko izvješće o prometnoj nesreći"
+        android:id="@+id/HeadLineMainText"
+        android:autoText="false"
+        android:ellipsize="middle"
+        android:lines="3"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHighlight="#ed1515"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Novo izvješće"
+        android:id="@+id/NovoIzvjButton"
+        android:background="@android:color/holo_blue_light"
+        android:backgroundTintMode="screen"
+        android:breakStrategy="high_quality"
+        android:capitalize="words"
+        android:textStyle="bold"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#b25252"
+        android:clickable="true"
+        android:elegantTextHeight="true"
+        android:ellipsize="end"
+        android:textSize="30dp"
+        android:layout_below="@+id/HeadLineMainText"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stara izvješća"
+        android:id="@+id/StaraIzvjButton"
+        android:background="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:layout_below="@+id/NovoIzvjButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:textSize="30dp"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

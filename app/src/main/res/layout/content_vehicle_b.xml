@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="hr.fer.ruazosa.if47987.caraccident.caraccident.VehicleB"
+    tools:showIn="@layout/activity_vehicle_b">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/VehicleBLL"
+        android:orientation="vertical"
+        android:background="#98f1fd06">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/osBTV"
+            android:text="6. osiguranik/ugovaratelj osiguranja(vidi police osiguranja)"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/PrezimeBET"
+            android:hint="PREZIME"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imeBET"
+            android:hint="ime"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/AdresaBET"
+            android:hint="adresa"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/PostBrojBET"
+            android:hint="poštanski broj"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/drzavaBET"
+            android:hint="država"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/telmailBET"
+            android:hint="tel. ili e-mail"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/voziloBTV"
+            android:textSize="20dp"
+            android:text="7. vozilo"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/motornoBTV"
+            android:textSize="20dp"
+            android:text="motorno vozilo"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/markaBET"
+            android:hint="marka, tip"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/registracijaMVBET"
+            android:hint="registracijska oznaka"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/drRegBMVET"
+            android:hint="država registracije"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prikolicaBTV"
+            android:textSize="20dp"
+            android:text="prikolica"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/registracijaBPET"
+            android:hint="registracijska oznaka"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/drRegBPET"
+            android:hint="država registracije"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/drustvoOsBTV"
+            android:textSize="20dp"
+            android:text="8. društvo za osiguranje(vidi policu osiguranja)"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ndBET"
+            android:hint="NAZIV DRUŠTVA"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dbrPolBET"
+            android:hint="broj police"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/brZelKarteBET"
+            android:hint="broj zelene karte"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/polOsZkVrijediBTV"
+            android:textSize="20dp"
+            android:text="polica osiguranja ili zelena karta vrijedi"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vrijediOdBET"
+            android:hint="od"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vrijediDoBET"
+            android:hint="do"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/poslBET"
+            android:hint="poslovnica (ili ured ili posrednik)"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nazivBET"
+            android:hint="NAZIV"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adresaOsBET"
+            android:hint="adresa"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/drzOsBET"
+            android:hint="država"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/telmailOsBET"
+            android:hint="tel. ili e-mail"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/kaskoBET"
+            android:textSize="20dp"
+            android:text="Je li šteta na vozilu pokrivena policom kasko osiguranja"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/VBPSCH">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nePSBCB"
+                android:text="ne"
+                android:textSize="20dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/daPSBCB"
+                android:text="da"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/vozacBTV"
+            android:textSize="20dp"
+            android:text="9. vozač vozila (vidi vozačku dozvolu)"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/prezVozBET"
+            android:hint="PREZIME"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imeVozBET"
+            android:hint="ime"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datRodVozBET"
+            android:hint="datum rođenja"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adresaVozBET"
+            android:hint="adresa"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/drzVozBET"
+            android:hint="država"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/telmailVozBET"
+            android:hint="tel. ili e-mail"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vozDozBET"
+            android:hint="vozačka dozvola br."/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/katVozBET"
+            android:hint="kategorija (A, B...)"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vozDozVrijediBET"
+            android:hint="vozačka dozvola vrijedi do"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mjestoUdaraBTV"
+            android:textSize="20dp"
+            android:text="10. opišite mjesto prvotnog udara na vozilo B"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mjestoUdaraBET"
+            android:hint="npr. desna strana prednjeg branika"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vidOsBTV"
+            android:textSize="20dp"
+            android:text="11. vidljiva oštećenja na vozilu B"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vidOsBET"
+            android:hint="npr. polupan prednji branik, staklo..."
+            android:inputType="textMultiLine"
+            android:ems="3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/primjedbeBTV"
+            android:textSize="20dp"
+            android:text="12. vlastite primjedbe"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/primjedbeBET"
+            android:inputType="textMultiLine"
+            android:ems="3"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/okolnostiButton"
+            android:text="SLJEDEĆI KORAK"
+            android:background="@android:color/holo_red_light"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

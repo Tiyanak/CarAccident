@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Car Accident</string>
+    <string name="title_activity_primary_data">Osnovni podaci</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_vehicle">Vozilo A</string>
+    <string name="title_activity_vehicle_b">Vozilo B</string>
+    <string name="title_activity_okolnosti_nesrece">13. Okolnosti nesrece</string>
+
+
+</resources>
